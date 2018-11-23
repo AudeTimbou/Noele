@@ -1,0 +1,252 @@
+
+img {
+  width: 100%;
+}
+
+img:hover {
+     transform: scale(1.1)
+   }
+
+body {
+     background-color: white;
+     margin: 0;
+   }
+
+header {
+  height: 50px;
+}
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  width: 6em;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  color: #D1C8AB;
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: black;
+}
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #D1C8AB;
+  text-indent: 1%;
+}
+
+a {
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #D1C8AB;
+  text-decoration: none;
+}
+
+ul {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style: circle;
+  line-height: 1;
+}
+
+li {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  color: #D1C8AB;
+  line-height: 2;
+
+}
+
+.soins {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.lotion {
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+}
+
+.huile {
+  height: 300px;
+  width: 300px;
+  margin: 15px;
+}
+
+.maquillage {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.fdt {
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+}
+
+.concealer {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.eyes {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.light {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.vêtements {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.jupe {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.salopette  {
+  height: 300px;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.manteau {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.sweat {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.pull1 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.pull2 {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.chaussures {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.cuissardes {
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.bijoux {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 70vh;
+}
+
+.collier {
+  height: 200px;
+  width: 170px;
+  margin-top: 10px;
+}
+
+
+
+section {
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:first-of-type {
+  font-size: 7vw;
+  height: 70vh;
+}
+section.pop {
+  color: #fff;
+}
+
+section:nth-of-type(even) {
+  background: #fff;
+}
+section:nth-of-type(1) {
+  background-image: url(https://www.myjewishlearning.com/wp-content/uploads/2005/12/pareve-christmas-1598x900.jpg);
+  height: 70vh;
+}
+section:nth-of-type(3) {
+  background-image: url(img/skincare.jpg);
+  height: 70vh;
+}
+section:nth-of-type(5) {
+  background-image: url(img/tumblr_static_tumblr_static__640.png);
+  height: 70vh;
+}
+section:nth-of-type(7) {
+  background-image: url(img/large.jpg);
+  height: 70vh;
+}
+section:nth-of-type(9) {
+  background-image: url(img/balenciaga.png);
+  height: 70vh;
+}
+
+section:nth-of-type(11) {
+  background-image: url(img/bijoux.jpg);
+  height: 70vh;
+}
+
+section:nth-of-type(13) {
+  background-image: url(img/0cf29b04438b467b84847374f8c8c417.jpg);
+  height: 70vh;
+}
